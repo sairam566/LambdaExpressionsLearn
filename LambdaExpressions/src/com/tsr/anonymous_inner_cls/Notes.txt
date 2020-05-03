@@ -1,0 +1,57 @@
+ #Points to remember
+ ----------------------------------------------------------------------
+ 
+ a) public class Test{
+ 	----------
+ 	----------
+ }
+ 	Test t = new  Test(){
+ 	----------
+ 	----------
+ };
+ Anonymous Inner class that extends concrete class
+ ____________________________________________________________________________________
+
+ b) abstract class Test{
+ 	------------
+ 	------------
+ }
+ Test t = new Test(){
+ 	------------
+ 	------------
+ };
+ Anonymous Inner class that extends abstract class
+_______________________________________________________________________________________
+
+c) interface Test{
+	public void m1();
+	public void m2();
+	public void m3();
+}
+Test t = new Test(){
+	public void m1(){}
+	public void m2(){}
+	public void m3(){}
+};
+ Anonymous Inner class that implements an interface which contains multiple methods
+ __________________________________________________________________________________________
+ 
+ d)interface Test{
+  public void m1();
+ } 
+ Test t = new Test(){
+ 	public void m1(){}
+ };
+ Anonymous Inner class that implements an interface which contains only one abstract method
+ 
+ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ @																							  @
+ @																							  @
+ @		We can only use lambda expressions if interface contain only *one*                    @
+ @      abstract method.																	  @
+ @		Anonymous Inner class != Lambda Expression											  @
+ @																							  @
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ 
+ @
