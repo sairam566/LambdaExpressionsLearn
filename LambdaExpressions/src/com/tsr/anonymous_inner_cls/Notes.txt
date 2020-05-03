@@ -45,13 +45,8 @@ Test t = new Test(){
  Anonymous Inner class that implements an interface which contains only one abstract method
  
  
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@	
+
+	1)We can only use lambda expressions if interface contain only *one* abstract method.		
+	2)Anonymous Inner class != Lambda Expression											  
  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
- @																							  @
- @																							  @
- @		We can only use lambda expressions if interface contain only *one*                    @
- @      abstract method.																	  @
- @		Anonymous Inner class != Lambda Expression											  @
- @																							  @
- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
- 
- @
