@@ -9,6 +9,7 @@ public class FunctionTest {
 		Function<String, Integer> fun = s->s.length();
 		
 		System.out.println(fun.apply("test1"));
+		System.out.println("OK");
 	}
 
 }
